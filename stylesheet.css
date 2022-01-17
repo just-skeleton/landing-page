@@ -37,7 +37,7 @@ ul {
   padding: 0;
 }  
 
-.box-1 {
+.hero-b {
     width: 100vw;
     height: 400px;
     background-color: #1F2937;
@@ -76,16 +76,16 @@ ul {
     color: white;
 }
 
-.box-2 {
+.info-b {
     width: 100vw;
     height: 400px;
     background-color: white;
     align-items: center;
     margin: 0;
-    padding: 25px 0;
+    padding: 53px 0;
 }
 
-.box-2 h1 {
+.info-b h1 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
@@ -97,7 +97,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     align-content: center;
     padding: 30px 0;
 }
@@ -128,4 +128,34 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.quote-b {
+    width: 100vw;
+    height: 400px;
+    background-color: #E5E7EB;
+    align-items: center;
+    margin: 0;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: left;
+    width: 55vw;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+    font-style: normal;
+    text-align: right;
+    padding-right: 50px;
+
 }
